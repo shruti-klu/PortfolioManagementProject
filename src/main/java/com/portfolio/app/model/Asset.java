@@ -6,7 +6,7 @@ public abstract class Asset {
 	private double purchasePrice;
 	
 	//constructor
-	public Asset(String assetId,String assetName,double purchasePrice) {
+	public Asset(String assetid,String assetName,double purchasePrice) {
 		
 		this.assetid = assetid;
 		this.assetName=assetName;
