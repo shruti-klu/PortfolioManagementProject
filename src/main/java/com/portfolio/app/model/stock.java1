@@ -1,6 +1,6 @@
 package com.portfolio.app.model;
 import java.util.Scanner;
-public class stock {
+public class stock1 Asset {
 	private String stockid;
 	private String stockname;
 	private double price;
@@ -15,6 +15,7 @@ public class stock {
 	public void setStockname(String stockname) {
 		this.stockname = stockname;
 	}
+	
 	public double getprice() {
 		return price;
 	}

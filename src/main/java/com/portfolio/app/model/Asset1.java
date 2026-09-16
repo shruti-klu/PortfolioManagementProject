@@ -1,12 +1,12 @@
 package com.portfolio.app.model;
 
-public abstract class Asset {
+public abstract class Asset1 {
 	private String assetid;
 	private String assetName;
 	protected double purchasePrice;
 	
 	//constructor
-	public Asset(String assetid,String assetName,double purchasePrice) {
+	public Asset1(String assetid,String assetName,double purchasePrice) {
 		
 		this.assetid = assetid;
 		this.assetName=assetName;
