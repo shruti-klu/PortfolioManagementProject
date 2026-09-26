@@ -1,5 +1,7 @@
 package com.portfolio.app.model;
 
+import java.util.Map;
+
 public class User {
 	private String userid;
 	private String name;
@@ -33,5 +35,15 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Map<String, User> getHoldings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void addHolding(Holding mfHolding) {
+		// TODO Auto-generated method stub
+		
 	}
 }
